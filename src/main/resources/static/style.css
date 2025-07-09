@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text .badge {
+  display: inline-block;
+  background: #eee;
+  color: #6c63ff;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text .highlight {
+  color: #3a86ff;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-text .btn {
+  background: #030915;
+  color: #fff;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-text .btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Container */
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: none;
+}
+
+.card.active {
+  display: block;
+}
+
+.card h1 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.btn {
+  background: #030915;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: #030915;
+}
+
+.alert {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #d00000;
+}
+
+.alert.success {
+  color: green;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #030915; /* Atau warna lain sesuai tema kamu */
+  margin-bottom: 8px;
+  display: inline-block;
+}
